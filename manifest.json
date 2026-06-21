@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "EcoIntercept AI",
+  "version": "2.0.0",
+  "description": "Real-time sustainability intelligence, carbon footprint prediction, and emissions ledger for conscious Amazon shoppers.",
+  "permissions": [
+    "activeTab",
+    "scripting"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "http://*/*",
+        "https://*/*"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "css": [
+        "styles.css"
+      ],
+      "run_at": "document_end"
+    }
+  ]
+}
