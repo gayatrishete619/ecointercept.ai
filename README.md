@@ -178,10 +178,14 @@ This project is licensed under the [Apache License 2.0](LICENSE).
 
 ---
 
+---
+
 <div align="center">
 
 **Built with 🌱 for a sustainable future**
 
 *EcoIntercept AI — Making every purchase count for the planet*
+
+[Click here to visit the live site](https://ecointercept-ai.vercel.app/)
 
 </div>
